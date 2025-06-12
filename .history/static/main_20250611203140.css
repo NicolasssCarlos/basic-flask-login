@@ -1,0 +1,103 @@
+.login {
+
+    font-family: Arial, Helvetica, sans-serif;
+
+
+    font-size: 3rem;
+
+
+    background-color: #3a87df;
+
+
+    color: #fff;
+
+
+    margin-bottom: 0;
+
+
+
+}
+
+
+.login h1 {
+
+
+    align-items: center;
+
+
+    justify-content: center;
+
+
+    text-align: center;
+
+
+    
+}
+
+
+.login .container .log-in {
+
+
+    align-items: center;
+
+
+    justify-content: center;
+
+
+    text-align: center;
+
+
+    background-color: #1e4262;
+
+
+    color: #fff;
+
+
+
+}
+
+
+.inputs {
+
+
+
+    display: flex;
+
+
+    flex-direction: column;
+
+
+    gap: 1rem;
+
+
+    width: 30%;
+
+
+    margin: 0 auto;
+
+
+    
+}
+
+
+.inputs input {
+
+
+    font-size: 3rem;
+
+
+    margin-bottom: 1rem;
+
+
+    margin-top: 5rem;
+
+
+
+}
+
+
+.inputs button {
+
+
+    font-size: 3rem;
+}

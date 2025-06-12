@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+
+    <link rel="stylesheet" href="{{ url_for('static', filename='main.css')}}">
+    <title>Document</title>
+</head>
+<body class="signup">
+
+
+    <div class="container">
+
+
+        <h1>Using for the first time?</h1>
+
+
+        <div class="sign-up">
+
+
+            <form method="post">
+
+
+                <div class="buttons">
+
+
+                    <button type="button" onclick="window.location.href='/signup'">Sign up</button>
+
+
+                    <button type="button" onclick="window.location.href='/'">Login</button>
+
+
+
+                </div>
+
+
+                <div class="inputs">
+
+
+                    <input type="text" name="name" placeholder="Type your first and last name here">
+
+
+                    <input type="text" name="username" placeholder="Type your username">
+
+
+                    <input type="email" name="email" placeholder="Email">
+
+
+                    <input type="password", name="password" placeholder="Password">
+
+
+                    <button type="submit">Sign up</button>
+
+
+
+                </div>
+                
+
+
+            </form>
+
+
+
+        </div>
+
+
+        {% if errors %}
+
+
+            {% for e in errors %}
+
+
+                <h1>{{ e }}</h1>
+
+
+            {% endfor %}
+
+
+        {% endif %}
+
+
+        {% if welcome %}
+
+
+            <h1>{{ welcome }}</h1>
+
+
+        {% endif %}
+
+
+
+    </div>
+
+
+
+</body>
+</html>

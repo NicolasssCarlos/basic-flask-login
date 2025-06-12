@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+
+    <link rel="stylesheet" href="{{url_for('static', filename='main.css')}}">
+    <title>Document</title>
+</head>
+<body class="login">
+
+
+    <div class="container">
+
+
+        <h1>Welcome back!</h1>
+
+
+        <div class="login">
+
+
+            <form method="post">
+
+
+              <button type="button" onclick="window.location.href='/signup'">Sign up</button>/<button type="button" onclick="window.location.href='/'">Login</button>
+
+
+              
+
+
+              <input type="email" name="email" placeholder="Email">
+
+
+              <input type="password" name="password" placeholder="Password">
+
+
+              <button type="submit">Log in</button>
+
+
+
+            </form>
+
+
+            
+        </div>
+
+
+        {% if welcome %}
+
+
+            {{ welcome }}
+
+
+        {% elif error %}
+
+
+            {{ error }}
+
+
+        {% endif %}
+
+
+        
+    </div>
+
+
+
+</body>
+</html>

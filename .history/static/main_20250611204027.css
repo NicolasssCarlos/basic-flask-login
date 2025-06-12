@@ -1,0 +1,164 @@
+.login {
+
+    font-family: Arial, Helvetica, sans-serif;
+
+
+    font-size: 3rem;
+
+
+    background-color: #3a87df;
+
+
+    color: #fff;
+
+
+    margin-bottom: 0;
+
+
+
+}
+
+
+.login h1 {
+
+
+    align-items: center;
+
+
+    justify-content: center;
+
+
+    text-align: center;
+
+
+    
+}
+
+
+.login .container .log-in {
+
+
+    
+
+
+    background-color: #1e4262;
+
+
+    color: #fff;
+
+
+
+}
+
+
+.inputs {
+
+
+
+    display: flex;
+
+
+    flex-direction: column;
+
+
+    gap: 1rem;
+
+
+    width: 30%;
+
+
+    margin: 0 auto;
+
+
+    margin-top: 5rem;
+
+
+    align-items: center;
+
+
+    justify-content: center;
+
+
+    text-align: center;
+}
+
+
+.inputs input {
+
+
+    font-size: 3rem;
+
+
+    margin-bottom: 1rem;
+
+
+    margin-top: 1rem;
+
+
+
+}
+
+
+.inputs button {
+
+
+    font-size: 2rem;
+
+
+    width: 35%;
+
+
+    align-items: center;
+
+
+    justify-content: center;
+
+
+    text-align: center;
+
+
+    padding: 0.5rem;
+
+
+    margin-top: 3rem;
+
+
+
+}
+
+
+.login .container .buttons {
+
+
+    align-items: center;
+
+
+    justify-content: center;
+
+
+    text-align: center;
+
+
+    
+}
+
+
+.buttons button {
+
+
+    border: transparent;
+
+
+    font-size: 2rem;
+
+
+    background: transparent;
+
+
+    color: #fff;
+
+
+    margin-left: 1rem;
+
+    margin-right: 2rem;
+}
